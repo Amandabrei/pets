@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Cadastro de Pet</h2>
+        <form id="petForm">
+            <label for="donorName">Nome do Dono:</label>
+            <input type="text" id="donorName" name="donorName" required>
+
+            <label for="petName">Nome do Pet:</label>
+            <input type="text" id="petName" name="petName" required>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
